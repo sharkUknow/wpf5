@@ -1,0 +1,13 @@
+﻿<Window x:Class="TextWriter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextWriter"
+        mc:Ignorable="d"
+        Title="Text Writer" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Open_Button" Content="開啟檔案" HorizontalAlignment="Left" Margin="43,190,0,184" Width="122" Click="Open_Button_Click" />
+
+    </Grid>
+</Window>
